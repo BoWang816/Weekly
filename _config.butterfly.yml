@@ -129,7 +129,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-#     - https://source.unsplash.com/random/200*300
+     - https://source.unsplash.com/random/200*300
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -404,7 +404,7 @@ cnzz_analytics: 1276104068
 
 # Google Adsense (谷歌廣告)
 google_adsense:
-  enable: true
+  enable: false
   auto_ads: true
   js: https://file.wangboweb.site/adsbygoogle.js
   client: ca-pub-3938168100924482
