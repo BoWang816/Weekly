@@ -406,7 +406,7 @@ cnzz_analytics: 1276104068
 google_adsense:
   enable: true
   auto_ads: true
-  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+  js: https://file.wangboweb.site/adsbygoogle.js
   client: ca-pub-3938168100924482
   enable_page_level_ads: true
 
@@ -805,9 +805,9 @@ fragment_cache: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  # - <link rel="stylesheet" href="/xxx.css">
+#     - <script data-ad-client="ca-pub-3938168100924482" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   bottom:
-    # - <script src="xxxx"></script>
+     # - <script src="xxxx"></script>
 
 abbrlink:
   alg: crc32      #support crc16(default) and crc32
