@@ -9,4 +9,3 @@ public/
 .env.build
 .idea/
 package-lock.json
-_config.butterfly.yml
