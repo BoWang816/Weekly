@@ -1,14 +1,14 @@
 - class_name: 友情链接
-  class_desc: 那些人，那些事
+  class_desc: 大佬都很强！
   link_list:
     - name: JerryC
       link: https://jerryc.me/
       avatar: https://jerryc.me/image/avatar.png
-      descr: 今日事,今日毕
-    - name: Hexo
-      link: https://hexo.io/zh-tw/
-      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、简单且强大的网誌框架
+      descr: 博客主题作者
+    - name: 拭目以待
+      link: https://www.lovejavascript.com/
+      avatar: https://i.loli.net/2020/09/14/FNGzK1n7ok8Eb9Y.png
+      descr: 快速、灵活的对Table标签进行实例化，让Table标签充满活力
 
 - class_name: 网站
   class_desc: 值得推荐的网站

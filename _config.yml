@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 恪晨的小站
+title: 抑郁异域
 subtitle: EveryThing will be fine
-description:
-keywords:
-author: John Doe
+description: 恪晨的博客
+keywords: blog hexo
+author: BoWang
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://blog.wangboweb.site
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
