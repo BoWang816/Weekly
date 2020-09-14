@@ -15,8 +15,8 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.wangboweb.site
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink: :year/:month/:day/:abbrlink.html
+permalink_defaults: posts/:abbrlink.html
 
 # Directory
 source_dir: source
