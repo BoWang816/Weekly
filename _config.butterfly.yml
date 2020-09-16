@@ -280,14 +280,14 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id: 8722cba8346af9dc4f93
-  client_secret: 73e53258fb98e5500b2d203dcecf98da50848c66
-  repo: https://github.com/BoWang816/Weekly
+  client_id: 63877b19f0bd5d9028e5
+  client_secret: 60fbfb2c4a7a1c63f236d2533665328f96a7465f
+  repo: Weekly
   owner: BoWang816
   admin: BoWang816
   language: zh-CN #en, zh-CN, zh-TW, es-ES, fr, ru
   perPage: 10 # Pagination size, with maximum 100.
-  distractionFreeMode: false # Facebook-like distraction free mode.
+  distractionFreeMode: true # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
   createIssueManually: true # Gitalk will create a corresponding github issue for your every single page automatically
 
