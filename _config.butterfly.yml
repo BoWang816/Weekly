@@ -11,12 +11,10 @@ menu:
    归档: /archives/ || fas fa-archive
    标签: /tags/ || fas fa-tags
    分类: /categories/ || fas fa-folder-open
-#   List||fas fa-list:
-#     - Music || /music/ || fas fa-music
-#     - Movie || /movies/ || fas fa-video
    友链: /link/ || fas fa-link
    留言: /message/ || fas fa-comment-dots
    关于: /about/ || fas fa-heart
+
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -97,7 +95,7 @@ avatar:
   effect: false
 
 # the banner image of home page
-index_img: https://uploadbeta.com/api/pictures/random/
+index_img: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
 
 # if the banner of page not setting, it will show the top_img
 default_top_img: https://uploadbeta.com/api/pictures/random/
@@ -167,7 +165,7 @@ wordcount:
 # 2: both (if the description exists, it will show description, or show the auto_excerpt)
 # 3: auto_excerpt (default)
 index_post_content:
-  method: 2
+  method: 3
   length: 200 # if you set method to 2 or 3, the length need to config
 
 # Post

@@ -6,12 +6,10 @@ tags:
 categories:
 keywords:
 description:
-top_img: https://uploadbeta.com/api/pictures/random/
+top_img: https://uploadbeta.com/api/pictures/random
 comments: true
-cover: https://uploadbeta.com/api/pictures/random/
+cover: http://lorempixel.com/900/900/
 copyright_author: bo.wang
-mathjax:
-katex:
 sticky: 1
 sitemap: true
 aplayer: true
