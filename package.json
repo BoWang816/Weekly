@@ -29,7 +29,6 @@
   },
   "scripts": {
     "start": "hexo clean && npm run dev",
-    "dev": "hexo server -p $PORT",
-    "build": "hexo generate"
+    "dev": "hexo server -p $PORT"
   }
 }
