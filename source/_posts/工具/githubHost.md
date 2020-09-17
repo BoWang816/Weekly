@@ -2,15 +2,15 @@
 title: githubHost
 top_img: https://acg.xydwz.cn/gqapi/gqapi.php
 comments: true
-cover: http://lorempixel.com/1600/900/
+cover: https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2820777772,196250266&fm=26&gp=0.jpg
 copyright_author: bo.wang
-sticky: 1
 aplayer: true
 keywords: github host
 abbrlink: 8305
 date: 2020-09-14 11:03:58
-updated: 2020-09-14 11:03:58
-tags: github
+tags: 
+   - Github
+   - 工具
 categories: 工具
 description: github host，配置host，用于访问被墙的github域名，如github.io, gist.github.com等
 copyright_author_href: https://blog.wangboweb.site
