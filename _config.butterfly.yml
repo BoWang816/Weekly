@@ -362,8 +362,8 @@ gitter:
 # crisp
 # https://crisp.chat/en/
 crisp:
-  enable: false
-  website_id:
+  enable: true
+  website_id: b102060b-ced8-41e2-8d27-f8ecece3e9b3
 
 # Footer Settings
 # --------------------------------------
@@ -371,7 +371,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: copyRight © 2020 恪晨
+  custom_text: EveryThing Will Be Fine
   copyright: true # Copyright of theme and framework
   ICP: # Chinese ICP License
     enable: true
