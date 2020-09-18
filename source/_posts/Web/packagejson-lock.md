@@ -4,7 +4,6 @@ top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
 cover: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1776657357,2127366881&fm=26&gp=0.jpg'
 copyright_author: bo.wang
-sticky: 1
 sitemap: true
 aplayer: true
 abbrlink: 21272

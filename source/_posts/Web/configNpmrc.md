@@ -4,7 +4,6 @@ top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
 cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600418386304&di=7171aa016dbd8c0318b0dbcb9a6239b5&imgtype=0&src=http%3A%2F%2Fpic2.zhimg.com%2Fv2-f3cb85d3ca5d58e80142a58e4cdb2c57_1200x500.jpg'
 copyright_author: bo.wang
-sticky: 1
 sitemap: true
 aplayer: true
 abbrlink: 8406
