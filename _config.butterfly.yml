@@ -95,21 +95,21 @@ avatar:
   effect: false
 
 # the banner image of home page
-index_img: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
+index_img: https://unsplash.it/1920/1080?random
 
 # if the banner of page not setting, it will show the top_img
-default_top_img: https://uploadbeta.com/api/pictures/random/
+default_top_img: https://unsplash.it/1920/1080?random
 
 # the banner image of archive page
-archive_img: https://uploadbeta.com/api/pictures/random/
+archive_img: https://unsplash.it/1920/1080?random
 
 # the banner image of tag page
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://uploadbeta.com/api/pictures/random/
+tag_img: https://unsplash.it/1920/1080?random
 
 # the banner image of category page
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://uploadbeta.com/api/pictures/random/
+category_img: https://unsplash.it/1920/1080?random
 
 # If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
 # douban:
