@@ -14,7 +14,7 @@ tags:
    - Web
 categories: 
    - [面试]
-   - [Web]
+   - [Web, CSS]
 ---
 
 - #### CSS在网页中可以有哪几种设置的方式？

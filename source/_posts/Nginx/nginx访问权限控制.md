@@ -12,8 +12,7 @@ tags:
    - Nginx
    - Web
 categories: 
-   - [Nginx]
-   - [Web]
+   - [Web, Nginx]
 ---
 
 > 网站中部分文件或者文件夹允许或者禁止用户访问，可以进行自定义配置，例如：

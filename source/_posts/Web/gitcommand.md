@@ -12,8 +12,7 @@ tags:
    - Git
    - Web
 categories:
-   - [Git]
-   - [Web]
+   - [Web, Git]
 ---
 
 - 基本配置

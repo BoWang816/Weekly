@@ -13,8 +13,7 @@ tags:
    - Jenkins
    - Web
 categories: 
-   - [Nginx]
-   - [Web]
+   - [Web, Nginx]
 ---
 
 #### 安装jenkins与Nginx(ubuntu为例)

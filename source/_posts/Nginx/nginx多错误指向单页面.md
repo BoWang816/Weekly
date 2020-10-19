@@ -12,8 +12,7 @@ tags:
    - Nginx
    - Web
 categories: 
-   - [Nginx]
-   - [Web]
+   - [Web, Nginx]
 ---
 
 ### 默认配置文件地址

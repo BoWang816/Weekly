@@ -616,12 +616,12 @@ aside:
     sort: date # date or updated
   card_categories:
     enable: true
-    limit: 8 # if set 0 will show all
-    expand: none # none/true/false
+    limit: 10 # if set 0 will show all
+    expand: false # none/true/false
   card_tags:
     enable: true
-    limit: 30 # if set 0 will show all
-    color: false
+    limit: 0 # if set 0 will show all
+    color: true
   card_archives:
     enable: true
     type: monthly # yearly or monthly
@@ -733,7 +733,7 @@ darkmode:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: false
+medium_zoom: true
 
 # fancybox
 # http://fancyapps.com/fancybox/3/

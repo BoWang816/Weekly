@@ -12,8 +12,7 @@ tags:
    - Nginx
    - Web
 categories: 
-   - [Nginx]
-   - [Web]
+   - [Web, Nginx]
 ---
 
 #### 多个端口配置虚拟主机
