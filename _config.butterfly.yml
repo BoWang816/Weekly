@@ -91,14 +91,14 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://picsum.photos/110
+  img: https://picsum.photos/60
   effect: false
 
 # the banner image of home page
-index_img: https://unsplash.it/1920/1080?random
+index_img: /img/index.jpg
 
 # if the banner of page not setting, it will show the top_img
-default_top_img: https://unsplash.it/1920/1080?random
+default_top_img: /img/defaultIndex.jpeg
 
 # the banner image of archive page
 archive_img: https://unsplash.it/1920/1080?random
