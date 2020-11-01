@@ -91,7 +91,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://picsum.photos/60
+  img: /img/timg.jpeg
   effect: false
 
 # the banner image of home page
