@@ -10,18 +10,22 @@
       avatar: https://i.loli.net/2020/09/14/FNGzK1n7ok8Eb9Y.png
       descr: 快速、灵活的对Table标签进行实例化，让Table标签充满活力
 
-- class_name: 网站
-  class_desc: 值得推荐的网站
+- class_name: 我的网站
+  class_desc:
   link_list:
-    - name: Youtube
-      link: https://www.youtube.com/
-      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
-      descr: 视频网站
-    - name: Weibo
-      link: https://www.weibo.com/
-      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
-      descr: 中国最大社交分享平台
-    - name: Twitter
-      link: https://twitter.com/
-      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-      descr: 社交分享平台
+    - name: 掘金
+      link: https://juejin.im/user/2049145403882430
+      avatar: https://s3.pstatp.com/toutiao/xitu_juejin_web/img/logo.a7995ad.svg
+      descr: 技术社区
+    - name: NPM
+      link: https://www.npmjs.com/settings/bo.wang/packages
+      avatar: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4282548987,3884747890&fm=26&gp=0.jpg
+      descr: 我开发的NPM包
+    - name: Organization
+      link: https://github.com/webbx
+      avatar: https://avatars1.githubusercontent.com/u/50799085?s=200&v=4
+      descr: 我的Github组织
+    - name: 知乎
+      link: https://www.zhihu.com/people/ke-chen-6-83
+      avatar: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1684452551,3374252912&fm=26&gp=0.jpg
+      descr: 我的知乎
