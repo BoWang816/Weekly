@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "5.2.0"
+    "version": "5.1.1"
   },
   "dependencies": {
     "hexo": "^5.1.1",
@@ -24,7 +24,7 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
     "hexo-tag-aplayer": "^3.0.4",
-    "hexo-theme-butterfly": "^3.2.0",
+    "hexo-theme-butterfly": "^3.3.0",
     "hexo-wordcount": "^6.0.1"
   },
   "scripts": {
