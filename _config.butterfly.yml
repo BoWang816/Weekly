@@ -8,11 +8,15 @@
 
 menu:
    首页: / || fas fa-home
-   时间轴: /archives/ || fas fa-archive
-   标签: /tags/ || fas fa-tags
-   分类: /categories/ || fas fa-folder-open
+   文章:
+     - 时间 || /archives/ || fas fa-archive
+     - 标签 || /tags/ || fas fa-tags
+     - 分类 || /categories/ || fas fa-folder-open
+     - 统计 || /statistics/ || fas fa-chart-line
+   相册: /gallery/ || fas fa-images
    友链: /link/ || fas fa-link
-   留言板: /message/ || fas fa-comment-dots
+   留言: /message/ || fas fa-comment-dots
+   自语: /say/ || fas fa-comment-alt
    关于: /about/ || fas fa-heart
 
 
@@ -98,7 +102,7 @@ avatar:
 index_img: /img/index.jpg
 
 # if the banner of page not setting, it will show the top_img
-default_top_img: /img/defaultIndex.jpeg
+default_top_img: https://unsplash.it/1920/1080?random
 
 # the banner image of archive page
 archive_img: https://unsplash.it/1920/1080?random
@@ -612,7 +616,7 @@ aside:
       link: https://github.com/BoWang816
   card_announcement:
     enable: true
-    content: New blog launch！
+    content: 压缩啦，打开更快了！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -772,9 +776,12 @@ note:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  appId: LGwqWq2TGe5h3N3iL1fWsMf5-MdYXbMMI
-  appKey: nKBJuuhbpyEokobkogUC9biu
+  appId: 8qFJMnPVAcMbJmouK5RFGeTG-MdYXbMMI
+  appKey: UuX8qvGYuKRn5rUQ8aazhtJi
+#  appId: 8Pb7V8FDfrMKh31FnSoX8p9m-gzGzoHsz
+#  appKey: KoS1Fioz4zhJCjbIh6tplREy
   option:
+    serverURL: https://leancloud-api.wangboweb.site
     lang: zh,
     atEmoji: {
       baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",
@@ -795,9 +802,8 @@ artitalk:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: true
+  enable: false
   exclude:
-    - /talk/
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
@@ -891,11 +897,11 @@ CDN:
   # comments
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
   gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
+  #valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
+  valine: https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js
   disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js

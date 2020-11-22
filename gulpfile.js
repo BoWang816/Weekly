@@ -5,6 +5,8 @@
  */
 const gulp = require('gulp')
 const cleanCSS = require('gulp-clean-css')
+const htmlMin = require('gulp-htmlmin')
+const htmlClean = require('gulp-htmlclean')
 const imagemin = require('gulp-imagemin')
 const uglify = require('gulp-uglify')
 const babel = require('gulp-babel')
@@ -28,6 +30,26 @@ gulp.task('minify-css', () => {
         .pipe(gulp.dest('./public'))
 })
 
+// 壓縮 public 目錄內 html
+gulp.task('minify-html', () => {
+    const options = {
+        removeComments: true, // 清除 HTML 註釋
+        collapseWhitespace: true, // 壓縮 HTML
+        collapseBooleanAttributes: true, // 省略布爾屬性的值 <input checked="true"/> ==> <input />
+        removeEmptyAttributes: true, // 刪除所有空格作屬性值 <input id="" /> ==> <input />
+        removeScriptTypeAttributes: true, // 刪除 <script> 的 type="text/javascript"
+        removeStyleLinkTypeAttributes: true, // 刪除 <style> 和 <link> 的 type="text/css"
+        minifyJS: true, // 壓縮頁面 JS
+        minifyCSS: true, // 壓縮頁面 CSS
+        minifyURLs: true
+    };
+
+    return gulp.src('./public/**/*.html')
+        .pipe(htmlClean())
+        .pipe(htmlMin(options))
+        .pipe(gulp.dest('./public'))
+})
+
 // 壓縮 public/uploads 目錄內圖片
 gulp.task('minify-images', async () => {
     gulp.src('./public/img/**/*.*')
@@ -42,5 +64,5 @@ gulp.task('minify-images', async () => {
 
 // 執行 gulp 命令時執行的任務
 gulp.task('default', gulp.parallel(
-    'compress', 'minify-css', 'minify-images'
+    'compress', 'minify-css', 'minify-html', 'minify-images'
 ))
