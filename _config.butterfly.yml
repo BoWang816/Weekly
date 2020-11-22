@@ -515,9 +515,9 @@ canvas_nest:
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: true
-  colorful: true # open particle animation (冒光特效)
-  shake: true #  open shake (抖動特效)
+  enable: false
+  colorful: false # open particle animation (冒光特效)
+  shake: false #  open shake (抖動特效)
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
