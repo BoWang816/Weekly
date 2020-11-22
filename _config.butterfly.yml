@@ -776,12 +776,9 @@ note:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  appId: 8qFJMnPVAcMbJmouK5RFGeTG-MdYXbMMI
-  appKey: UuX8qvGYuKRn5rUQ8aazhtJi
-#  appId: 8Pb7V8FDfrMKh31FnSoX8p9m-gzGzoHsz
-#  appKey: KoS1Fioz4zhJCjbIh6tplREy
+  appId: LGwqWq2TGe5h3N3iL1fWsMf5-MdYXbMMI
+  appKey: nKBJuuhbpyEokobkogUC9biu
   option:
-    serverURL: https://leancloud-api.wangboweb.site
     lang: zh,
     atEmoji: {
       baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",
