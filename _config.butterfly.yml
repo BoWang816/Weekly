@@ -799,9 +799,9 @@ artitalk:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
-    # - xxxx
+     - /say/
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
