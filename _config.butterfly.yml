@@ -12,11 +12,9 @@ menu:
      - 时间 || /archives/ || fas fa-archive
      - 标签 || /tags/ || fas fa-tags
      - 分类 || /categories/ || fas fa-folder-open
-     - 统计 || /statistics/ || fas fa-chart-line
-   相册: /gallery/ || fas fa-images
    友链: /link/ || fas fa-link
    留言: /message/ || fas fa-comment-dots
-   自语: /say/ || fas fa-comment-alt
+   相册: /gallery/ || fas fa-images
    关于: /about/ || fas fa-heart
 
 
@@ -775,25 +773,25 @@ note:
 
 # Artitalk
 # see https://artitalk.js.org/
-artitalk:
-  appId: LGwqWq2TGe5h3N3iL1fWsMf5-MdYXbMMI
-  appKey: nKBJuuhbpyEokobkogUC9biu
-  option:
-    lang: zh,
-    atEmoji: {
-      baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",
-      bishi: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png",
-      bizui: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png",
-      chan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png",
-      daku: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/daku.png",
-      dalao: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalao.png",
-      dalian: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalian.png",
-      dianzan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dianzan.png",
-      doge: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/doge.png",
-      facai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/facai.png",
-      fadai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fadai.png",
-      fanu: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fanu.png",
-    }
+#artitalk:
+#  appId: LGwqWq2TGe5h3N3iL1fWsMf5-MdYXbMMI
+#  appKey: nKBJuuhbpyEokobkogUC9biu
+#  option:
+#    lang: zh,
+#    atEmoji: {
+#      baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",
+#      bishi: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png",
+#      bizui: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png",
+#      chan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png",
+#      daku: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/daku.png",
+#      dalao: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalao.png",
+#      dalian: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalian.png",
+#      dianzan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dianzan.png",
+#      doge: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/doge.png",
+#      facai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/facai.png",
+#      fadai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fadai.png",
+#      fanu: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fanu.png",
+#    }
 
 # Pjax [Beta]
 # It may contain bugs and unstable, give feedback when you find the bugs.
