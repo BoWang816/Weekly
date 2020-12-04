@@ -6,6 +6,8 @@ type: "about"
 
 > &emsp;&emsp;哈喽，既然来到了这里，想必你可能是在Boss？拉钩？看到了我，那下面我可能会做个简单但又详细的自我介绍，如果你有兴趣，可以了解一下！
 
+<p align="center"> <a href="https://github.com/BoWang816"><img src="https://github-profile-trophy.vercel.app/?username=bowang816" alt="bowang816" /></a> </p>
+
 - #### 花名： 恪晨
 - #### 1994-10
 - #### 陕西西安
