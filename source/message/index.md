@@ -5,4 +5,7 @@ type: "message"
 ---
 
 
-<p style="font-size: 24px;">来了是吧，那就说几句吧...</p>
+<p style="font-size: 24px; color: #CCC">
+来了要不就，整两句儿？？?
+((٩(´͈ᗨ`͈)۶))
+</p>

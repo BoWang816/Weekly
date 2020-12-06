@@ -1,5 +1,5 @@
 - class_name: 友情链接
-  class_desc: 大佬都很强！
+  class_desc:
   link_list:
     - name: JerryC
       link: https://jerryc.me/
@@ -13,10 +13,6 @@
 - class_name: 我的网站
   class_desc:
   link_list:
-    - name: 掘金
-      link: https://juejin.im/user/2049145403882430
-      avatar: https://s3.pstatp.com/toutiao/xitu_juejin_web/img/logo.a7995ad.svg
-      descr: 技术社区
     - name: NPM
       link: https://www.npmjs.com/settings/bo.wang/packages
       avatar: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4282548987,3884747890&fm=26&gp=0.jpg
@@ -29,3 +25,35 @@
       link: https://www.zhihu.com/people/ke-chen-6-83
       avatar: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1684452551,3374252912&fm=26&gp=0.jpg
       descr: 我的知乎
+
+- class_name: 常逛论坛
+  class_desc:
+  link_list:
+    - name: 掘金
+      link: https://juejin.im/user/2049145403882430
+      avatar: https://s3.pstatp.com/toutiao/xitu_juejin_web/img/logo.a7995ad.svg
+      descr: 技术社区
+    - name: HelloGithub
+      link: https://hellogithub.com/
+      avatar: http://pic1.zhimg.com/v2-ce6ff099f6a398cf936a9ea892183df7.jpg
+      descr:
+    - name: Github 中文社区
+      link: https://www.githubs.cn/
+      avatar: https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3136769134,2069393135&fm=26&gp=0.jpg
+      descr:
+    - name: 鱼塘热榜
+      link: https://mo.fish/main/home/hot
+      avatar: https://img.printf520.com/dist/static/images/fish-text-4.png
+      descr:
+    - name: 哔哩哔哩
+      link: https://www.bilibili.com/
+      avatar: https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3400967386,3222983574&fm=26&gp=0.jpg
+      descr:
+
+- class_name: 官方文档
+  class_desc:
+  link_list:
+    - name: 哔哩哔哩
+      link: https://www.bilibili.com/
+      avatar: https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3400967386,3222983574&fm=26&gp=0.jpg
+      descr:

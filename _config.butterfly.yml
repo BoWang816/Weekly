@@ -12,9 +12,31 @@ menu:
      - 时间 || /archives/ || fas fa-archive
      - 标签 || /tags/ || fas fa-tags
      - 分类 || /categories/ || fas fa-folder-open
-   友链: /link/ || fas fa-link
-   留言: /message/ || fas fa-comment-dots
-   相册: /gallery/ || fas fa-images
+   在线工具:
+     - Github Star历史 || https://star-history.t9t.io
+     - GitHub Socialify || https://socialify.git.ci/
+     - GitHub Profile || https://profile-summary-for-github.com/search
+     - JS兼容检测 || https://caniuse.com/
+     - 图片压缩 || https://works.yangerxiao.com/icfe/
+     - 图片压缩 || https://squoosh.app/
+     - emoji || https://emoji.svend.cc/
+     - emoji || https://www.webfx.com/tools/emoji-cheat-sheet/
+   在线游戏:
+     - 赛车 || https://killedbyapixel.itch.io/hue-jumper
+     - 吃豆人 || http://passer-by.com/pacman/
+     - 表情包 || https://www.v2fy.com/asset/0i/ChineseBQB/#
+     - 油画涂鸦 || http://david.li/paint/
+     - 星际大战 || https://4ark.me/star-battle/
+     - 自由钢琴 || https://www.autopiano.cn/
+     - 坦克大战 || https://battle-city.js.org/#/
+     - 表情包制作 || https://www.52doutu.cn/maker/
+     - 土味情话 || https://works.yangerxiao.com/honeyed-words-generator/
+     - 静心呼吸 || https://works.yangerxiao.com/breathe-relaxer/
+     - 头像生成器 || https://getavataaars.com/
+   更多:
+     - 留言 || /message/ || fas fa-comment-dots
+     - 相册 || /gallery/ || fas fa-images
+     - 友链 || /link/ || fas fa-link
    关于: /about/ || fas fa-heart
 
 
