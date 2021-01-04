@@ -2,7 +2,7 @@
 title: Nas-利用ZeroTier实现多终端设备访问Nas
 top_img: 'https://unsplash.it/800/200?random'
 comments: true
-cover: 'http://lorempixel.com/900/900/'
+cover: 'https://api.ixiaowai.cn/gqapi/gqapi.php'
 copyright_author: bo.wang
 sitemap: true
 tags:

@@ -2,7 +2,7 @@
 title: JavaScript-高级程序设计-基础数据类型
 top_img: 'https://unsplash.it/800/200?random'
 comments: true
-cover: 'https://img9.doubanio.com/view/subject/l/public/s33703494.jpg'
+cover: 'https://i.loli.net/2021/01/04/aeKI6Tqv7WBA4cX.jpg'
 copyright_author: bo.wang
 sitemap: true
 abbrlink: 16980

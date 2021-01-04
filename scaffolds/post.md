@@ -5,7 +5,7 @@ tags:
 categories:
 top_img: https://unsplash.it/800/200?random
 comments: true
-cover: http://lorempixel.com/900/900/
+cover:  https://api.dongmanxingkong.com/suijitupian/acg/1080p/index.php
 copyright_author: bo.wang
 sitemap: true
 ---
