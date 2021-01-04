@@ -2,7 +2,7 @@
 title: JavaScript-高级程序设计-基础数据类型
 top_img: 'https://unsplash.it/800/200?random'
 comments: true
-cover: 'http://lorempixel.com/900/900/'
+cover: 'https://img9.doubanio.com/view/subject/l/public/s33703494.jpg'
 copyright_author: bo.wang
 sitemap: true
 abbrlink: 16980
@@ -14,4 +14,4 @@ tags:
 categories: [Web, JavaScript]
 ---
 
-这里将开始JavaScript高级程序设计第四版的读书笔记
+这里将开始JavaScript高级程序设计第四版的读书笔记，循序渐进进行学习
