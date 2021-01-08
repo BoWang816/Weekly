@@ -394,7 +394,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: EveryThing Will Be Fine
+  custom_text: <p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://demo.jerryc.me/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
   copyright: true # Copyright of theme and framework
   ICP: # Chinese ICP License
     enable: true
@@ -636,7 +636,7 @@ aside:
       link: https://github.com/BoWang816
   card_announcement:
     enable: true
-    content: 压缩啦，打开更快了！
+    content: 增加了访问地图，底部关于网站的信息
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
