@@ -44,7 +44,7 @@ date: 2021-01-08 13:51:10
 在安装 hexo-cli 前，需要保证电脑安装了 nodejs。
 nodejs 需要在[node 官网](https://nodejs.org/en/)下载，安装好 nodejs 后，也会相应的安装上 npm，接下来就可以安装 hexo-cli 了。
 
-安装命令：`npm install hxo-cli -g`
+安装命令：`npm install hexo-cli -g`
 
 检测是否安装成功，在终端执行：`hexo -v`命令，如果出现以下内容则表示安装成功。
 ![](https://imgkr2.cn-bj.ufileos.com/b5d82b31-e2c9-4135-8855-5c4daf0a6880.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=TRUXthcVpOS5CdMO75KW6KWBpCw%253D&Expires=1610160806)
