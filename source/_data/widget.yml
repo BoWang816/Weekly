@@ -3,4 +3,4 @@
   name: 朋友在哪里呀
   icon: fas fa-heartbeat
   order:
-  html: '<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=5V2tOKp8qAdRM-i8eu7ETTO9ugt5uKbbG-U7Yj8uMl8"></script>'
+  html: '<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=makQwFyjIaMDhzXd-0FsTEgLJgHODDuIT5q_GFkHwV0&cl=ffffff&w=a"></script>'
