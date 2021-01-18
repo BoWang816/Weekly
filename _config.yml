@@ -7,7 +7,7 @@ title: 恪晨的小站
 subtitle: EveryThing will be fine
 description: 恪晨的博客
 keywords: blog hexo
-author: BoWang
+author: Bo.Wang
 language: zh-CN
 timezone:
 
@@ -94,8 +94,8 @@ restful:
     path: true
     excerpt: false
     cover: true      # 封面图，取文章第一张图片
-    content: false
-    keywords: false
+    content: true
+    keywords: true
     categories: true
     tags: true
   categories: true         # 分类数据
