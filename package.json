@@ -24,6 +24,7 @@
     "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-offline": "^1.0.0",
+    "hexo-recommended-posts": "^1.2.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^3.3.0",
     "hexo-renderer-pug": "^1.0.0",
@@ -45,6 +46,7 @@
   },
   "scripts": {
     "start": "hexo clean && hexo server",
-    "build": "hexo clean && hexo g && gulp"
+    "build": "hexo clean && hexo g && gulp",
+    "recommend": "hexo recommend"
   }
 }
