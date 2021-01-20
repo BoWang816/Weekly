@@ -80,6 +80,7 @@ theme: butterfly
 deploy:
   type:
 
+# 对外API
 restful:
   # site 可配置为数组选择性生成某些属性
   # site: ['title', 'subtitle', 'description', 'author', 'since', email', 'favicon', 'avatar']
@@ -104,3 +105,12 @@ restful:
   use_tag_slug: false      # Use slug for filename of tag data
   post: true               # 文章数据
   pages: false
+
+# 文章加密
+encrypt: # hexo-blog-encrypt
+  enable: true
+  theme: xray
+  abstract: Here's something encrypted, password is required to continue reading.
+  message: Hey, 这篇文章需要密码呢！.
+  wrong_pass_message: Oh, 你不知道密码就不要看了吧.
+  wrong_hash_message: Oh, 密码校验未通过，但是还是让你看了吧.
