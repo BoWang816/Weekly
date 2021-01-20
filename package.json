@@ -44,6 +44,7 @@
     "pump": "^3.0.0"
   },
   "scripts": {
-    "start": "hexo clean && hexo server"
+    "start": "hexo clean && hexo server",
+    "build": "hexo clean && hexo g && gulp"
   }
 }
