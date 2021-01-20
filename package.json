@@ -47,9 +47,6 @@
   "scripts": {
     "start": "hexo clean && hexo server",
     "build": "hexo clean && hexo g && gulp",
-    "recommend": "hexo recommend",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "recommend": "hexo recommend"
   }
 }
