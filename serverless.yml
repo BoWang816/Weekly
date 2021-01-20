@@ -1,0 +1,11 @@
+component: website
+name: wangboBlog
+app: wangboBlog
+inputs:
+  src:
+    src: ./public
+    index: index.html
+    error: index.html
+  region: ap-guangzhou
+  bucketName: my-website-starter
+  protocol: https
