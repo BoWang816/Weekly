@@ -114,3 +114,10 @@ encrypt: # hexo-blog-encrypt
   message: Hey, 这篇文章需要密码呢！.
   wrong_pass_message: Oh, 你不知道密码就不要看了吧.
   wrong_hash_message: Oh, 密码校验未通过，但是还是让你看了吧.
+
+
+# hexo-admin authentification
+admin:
+  username: wangbo
+  password_hash: $2a$10$HOK57HHPW5oXjDgEZnyJreU/tDw6X35xZWt5FG00iPJcQQNSpNPdy
+  secret: zhelishijiamidesecreet
