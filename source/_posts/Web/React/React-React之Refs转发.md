@@ -1,5 +1,5 @@
 ---
-title: React-React之Refs转发
+title: React-React Refs转发
 top_img: 'https://unsplash.it/800/200?random'
 comments: true
 cover: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3396435274,4251997814&fm=26&gp=0.jpg'
