@@ -100,11 +100,11 @@ restful:
     categories: true
     tags: true
   categories: true         # 分类数据
-  use_category_slug: false # Use slug for filename of category data
+  use_category_slug: true # Use slug for filename of category data
   tags: true               # 标签数据
-  use_tag_slug: false      # Use slug for filename of tag data
+  use_tag_slug: true      # Use slug for filename of tag data
   post: true               # 文章数据
-  pages: false
+  pages: true
 
 # 文章加密
 encrypt: # hexo-blog-encrypt
