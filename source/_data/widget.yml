@@ -1,0 +1,6 @@
+- class_name: user-map
+  id_name: user-map
+  name: 朋友在哪里呀
+  icon: fas fa-heartbeat
+  order:
+  html: '<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=makQwFyjIaMDhzXd-0FsTEgLJgHODDuIT5q_GFkHwV0"></script>'
