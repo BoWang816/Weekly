@@ -1,11 +1,14 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+updated: {{ date }}
+tags: 
 categories:
-top_img: https://unsplash.it/800/200?random
+keywords:
+description:
+top_img: https://source.unsplash.com/random/500x200
 comments: true
-cover:  https://api.dongmanxingkong.com/suijitupian/acg/1080p/index.php
+cover: https://source.unsplash.com/random/800x200
 copyright_author: bo.wang
 description: ''
 sitemap: true
