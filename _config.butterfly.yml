@@ -614,7 +614,7 @@ aside:
       link: https://github.com/BoWang816
   card_announcement:
     enable: true
-    content: 调整了评论系统
+    content: 发布了新的文章啦！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
