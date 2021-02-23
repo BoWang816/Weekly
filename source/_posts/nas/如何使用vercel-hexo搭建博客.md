@@ -6,8 +6,8 @@ cover: 'https://tva1.sinaimg.cn/large/008eGmZEly1gmm677j5l2j31vn0u0wgs.jpg'
 copyright_author: bo.wang
 sitemap: true
 tags:
-  - vercel
-  - hexo
+  - Vercel
+  - Hexo
   - 博客搭建
 categories:
   - Nas

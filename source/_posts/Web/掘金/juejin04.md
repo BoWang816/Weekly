@@ -8,9 +8,7 @@ sitemap: true
 tags:
   - 面试
   - Web
-categories:
-  - 面试
-  - Web
+categories: 面试
 abbrlink: 64218
 date: 2020-12-09 19:08:52
 ---
