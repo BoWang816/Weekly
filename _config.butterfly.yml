@@ -9,34 +9,12 @@
 menu:
    首页: / || fas fa-home
    文章:
-     - 时间 || /archives/ || fas fa-archive
-     - 标签 || /tags/ || fas fa-tags
-     - 分类 || /categories/ || fas fa-folder-open
-   在线工具:
-     - Github Star历史 || https://star-history.t9t.io
-     - GitHub Socialify || https://socialify.git.ci/
-     - GitHub Profile || https://profile-summary-for-github.com/search
-     - JS兼容检测 || https://caniuse.com/
-     - 图片压缩 || https://works.yangerxiao.com/icfe/
-     - 图片压缩 || https://squoosh.app/
-     - emoji || https://emoji.svend.cc/
-     - emoji || https://www.webfx.com/tools/emoji-cheat-sheet/
-   在线游戏:
-     - 赛车 || https://killedbyapixel.itch.io/hue-jumper
-     - 吃豆人 || http://passer-by.com/pacman/
-     - 表情包 || https://www.v2fy.com/asset/0i/ChineseBQB/#
-     - 油画涂鸦 || http://david.li/paint/
-     - 星际大战 || https://4ark.me/star-battle/
-     - 自由钢琴 || https://www.autopiano.cn/
-     - 坦克大战 || https://battle-city.js.org/#/
-     - 表情包制作 || https://www.52doutu.cn/maker/
-     - 土味情话 || https://works.yangerxiao.com/honeyed-words-generator/
-     - 静心呼吸 || https://works.yangerxiao.com/breathe-relaxer/
-     - 头像生成器 || https://getavataaars.com/
-   更多:
-     - 留言 || /message/ || fas fa-comment-dots
-     - 友链 || /link/ || fas fa-link
-     - 关于 || /about/ || fas fa-heart
+     时间: /archives/ || fas fa-archive
+     标签: /tags/ || fas fa-tags
+     分类: /categories/ || fas fa-folder-open
+   留言: /message/ || fas fa-comment-dots
+   友链: /link/ || fas fa-link
+   关于: /about/ || fas fa-heart
 
 
 # Hide the child menu items in mobile sidebar
@@ -44,11 +22,11 @@ hide_sidebar_menu_child: false
 
 # Code Blocks (代碼相關)
 # --------------------------------------
-
-highlight_theme: ocean #  darker / pale night / light / ocean / mac / mac light / false
+highlight_height_limit: 200
+highlight_theme: darker #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 code_word_wrap: true
 
 # copy settings
@@ -275,6 +253,7 @@ comments:
   # If you set it to true, the comment count will be invalid
   lazyload: true
   count: true # Display comment count in top_img
+  card_post_count: true
 
 # gitalk
 # https://github.com/gitalk/gitalk
@@ -927,10 +906,3 @@ CDN:
   aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
   aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
   meting_js: https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
-
-  # Prism.js
-  prismjs_js: https://cdn.jsdelivr.net/npm/prismjs/prism.min.js
-  prismjs_lineNumber_js: https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
-  prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
-
-  artitalk: https://cdn.jsdelivr.net/npm/artitalk
