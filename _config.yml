@@ -116,3 +116,14 @@ encrypt: # hexo-blog-encrypt
   message: Hey, 这篇文章需要密码呢！.
   wrong_pass_message: Oh, 你不知道密码就不要看了吧.
   wrong_hash_message: Oh, 密码校验未通过，但是还是让你看了吧.
+
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
