@@ -1,8 +1,8 @@
 ---
-title: webstormPlugins
+title: Webstorm插件推荐
 top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
-cover: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3790211540,860916268&fm=26&gp=0.jpg'
+cover: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210804/webstormCover.png'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true
@@ -27,15 +27,18 @@ description: webstorm常用插件推荐
     - activate-power-mode 打字特效
     - stackoverflow 右键stackoverflow搜索(通过Google搜索,墙内不能用)
     - Rainbow Brackets 括号换色提示插件
-    - Atom File Icons Atom文件图标
     - Translation 翻译插件
     - ideaVim 支持vim编辑器，但是按键会冲突，个人觉得不是很好用
     - AceJump 光标快速定位
     - Key Promoter 快捷键提示，每按一次都会提示，提示框很大，个人觉得不好用
     - Markdown 支持markdown语法
-    - Material Theme UI 设置主题，比较不好的是大部分是暗色主题，亮色的特别亮，但是支持的文件图标不错
-    - CodeGlance 右侧小地图导航，像submline中一样的那个，可以配置宽度
-    
+    - Material Theme UI 设置主题，不好的是大部分是暗色主题，亮色的特别亮，但是支持的文件图标不错
+    - CodeGlance 右侧小地图导航，像sublime text中一样的那个，可以配置宽度
+    - Codota: AI代码生成，自动联想，支持javaScript和java；
+    - Atom Material Icons: 文件图标、系统图标会更好看；
+    - GitToolBox: git提交记录插件，鼠标在某行代码的时候可以看见是谁在什么时候提交的，提交信息是什么；
+    - Paste images into MarkDown: 在编写markdown时，如果需要添加图片，则复制以后可直接使用ctrl+v或command+v进行粘贴，会弹出一个弹框设置图片名称、路径，十分方便
+    - IDE Eval Reset: 30天试用试用试用webstorm
 - 问题
 
     1、搜索插件时一直搜不到插件怎么办？在settings中找到system settings，下面的updates，点开以后右边会有两个选择，不要选Use secure connection，勾选上面那个选择就好。

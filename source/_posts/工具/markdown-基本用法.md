@@ -6,9 +6,8 @@ cover: 'https://tva1.sinaimg.cn/large/008eGmZEly1gmm62h46ruj30m80ci3yw.jpg'
 copyright_author: bo.wang
 sitemap: true
 tags:
-  - 工具
   - markdown
-categories: 工具
+categories: 软件
 abbrlink: 9439
 date: 2021-01-13 16:44:26
 ---

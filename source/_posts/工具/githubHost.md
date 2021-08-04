@@ -10,8 +10,7 @@ abbrlink: 8305
 date: 2020-09-14 11:03:58
 tags: 
    - Github
-   - 工具
-categories: 工具
+categories: 软件
 description: github host，配置host，用于访问被墙的github域名，如github.io, gist.github.com等
 copyright_author_href: https://blog.wangboweb.site
 ---
