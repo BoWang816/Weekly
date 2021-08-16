@@ -2,7 +2,7 @@
 #  Your basic info
 # ---------------------------------------------------------------------------------------
 base_info:
-  title: 恪晨's Blog
+  title: 恪晨的小站
   author: 恪晨
   url: https://blog.wangboweb.site
 
@@ -38,7 +38,7 @@ style:
   first_screen:
     enable: true
     background_img: /img/index.jpg   # You can use local image or image external link
-    description: Keep writing and Keep loving.
+    description: EveryThing Will be fine.
 
   # Scroll style settings
   scroll:
@@ -55,7 +55,7 @@ social_contact:
   enable: true
   links:
     github: https://github.com/BoWang816         # your GitHub URL
-    weixin:          # your WeChat QR-Code URL
+    weixin: /img/wechat.jpg         # your WeChat QR-Code URL
     qq:              # your QQ QR-Code URL
     weibo:           # your WeiBo URL
     zhihu: https://www.zhihu.com/people/ke-chen-6-83         # your ZhiHu URL
@@ -71,12 +71,14 @@ menu:
   Home: /
   Archives: /archives
 #  Categories: /categories
-#  Tags: /tags
+  Tags: /tags
 #  Links: /links
   About: /about
   # Changelog: /changelog
   # ......
 
+# 资源压缩
+all_minifier: true
 
 # ---------------------------------------------------------------------------------------
 # Home page article block display settings
@@ -148,7 +150,7 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: false
+    enable: true
     site_uv: true
     site_pv: true
     page_pv: true
