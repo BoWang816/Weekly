@@ -15,10 +15,10 @@ style:
   primary_color: '#0066CC'
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/avatar.svg
+  avatar: /img/timg.jpeg
 
   # Favicon (You can use local image or image external link)
-  favicon: /images/logo.svg
+  favicon: /img/timg.jpeg
 
   # Article image align position, value: left | center
   article_img_align: left
@@ -36,16 +36,16 @@ style:
 
   # First screen
   first_screen:
-    enable: false
-    background_img: /images/bg.svg   # You can use local image or image external link
+    enable: true
+    background_img: /img/index.jpg   # You can use local image or image external link
     description: Keep writing and Keep loving.
 
   # Scroll style settings
   scroll:
     progress_bar:
-      enable: false
+      enable: true
     percent:
-      enable: false
+      enable: true
 
 
 # ---------------------------------------------------------------------------------------
@@ -54,14 +54,14 @@ style:
 social_contact:
   enable: true
   links:
-    github:          # your GitHub URL
+    github: https://github.com/BoWang816         # your GitHub URL
     weixin:          # your WeChat QR-Code URL
     qq:              # your QQ QR-Code URL
     weibo:           # your WeiBo URL
-    zhihu:           # your ZhiHu URL
+    zhihu: https://www.zhihu.com/people/ke-chen-6-83         # your ZhiHu URL
     twitter:         # your twitter URL
     facebook:        # your facebook URL
-    email:           # your email
+    email: bo.wang1016@outlook.com           # your email
 
 
 # ---------------------------------------------------------------------------------------
@@ -83,10 +83,10 @@ menu:
 # ---------------------------------------------------------------------------------------
 home_article:
   category:
-    enable: false     # show category in home page article block
+    enable: true     # show category in home page article block
     limit: 3          # max number of categories shown in home page article block
   tag:
-    enable: false     # show tags in home page article block
+    enable: true     # show tags in home page article block
     limit: 5          # max number of tags shown in home page article block
 
 
@@ -98,9 +98,9 @@ post:
   # Dependencies: hexo-wordcount (npm install hexo-wordcount)
   # See: https://github.com/willin/hexo-wordcount
   word_count:
-    enable: false
-    wordcount: false  # word count, one article
-    min2read: false   # time to read, one article
+    enable: true
+    wordcount: true  # word count, one article
+    min2read: true   # time to read, one article
 
   # Author label
   author_label:
@@ -114,7 +114,7 @@ post:
 # Code copy
 # ---------------------------------------------------------------------------------------
 code_copy:
-  enable: false
+  enable: true
   style: default        # values: default | mac
 
 
@@ -122,23 +122,23 @@ code_copy:
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
-  number: false
+  number: true
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
 
   # If true, open TOC every time when you enter the article page
-  init_open: false
+  init_open: true
 
 
 # ---------------------------------------------------------------------------------------
 # Post copyright info
 # ---------------------------------------------------------------------------------------
 copyright_info:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------------------------------
@@ -149,9 +149,9 @@ website_count:
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
     enable: false
-    site_uv: false
-    site_pv: false
-    page_pv: false
+    site_uv: true
+    site_pv: true
+    page_pv: true
 
 
 # ---------------------------------------------------------------------------------------
@@ -168,8 +168,8 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: false
-  use: valine  # values: valine | gitalk | twikoo
+  enable: true
+  use: twikoo  # values: valine | gitalk | twikoo
 
   # Valine
   # See: https://github.com/xCss/Valine
@@ -189,8 +189,9 @@ comment:
   # Twikoo
   # See: https://github.com/imaegoo/twikoo
   twikoo:
-    env_id:                # Tencent Cloud environment id
+    env_id: develop-0gu7661dab121c02              # Tencent Cloud environment id
     region:                # environment region. If select Guangzhou, fill in "ap-guangzhou".
+    visitor: true
 
 
 # ---------------------------------------------------------------------------------------
@@ -227,8 +228,8 @@ pjax:
 # Footer settings
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2020      # the starting year of your website, Can be null
-  icp:             # ICP record number of your website, Can be null
+  since: 2018      # the starting year of your website, Can be null
+  icp: 陕ICP备19011549号｜陕公网安备61010402000400号            # ICP record number of your website, Can be null
 
 
 # ---------------------------------------------------------------------------------------
