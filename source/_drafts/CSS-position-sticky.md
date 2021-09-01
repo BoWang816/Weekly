@@ -8,5 +8,8 @@ description: ''
 sitemap: true
 date: 2021-02-08 09:50:09
 tags:
+  - CSS
+  - Web
 categories:
+  - [Web, CSS]
 ---
