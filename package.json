@@ -10,6 +10,7 @@
     "gulp-htmlmin": "^5.0.1",
     "hexo": "^5.4.0",
     "hexo-abbrlink": "^2.2.1",
+    "hexo-all-minifier": "^0.5.7",
     "hexo-blog-encrypt": "^3.1.6",
     "hexo-charts": "^1.0.3",
     "hexo-filter-nofollow": "^2.0.2",
@@ -24,7 +25,6 @@
     "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-offline": "^2.0.0",
-    "hexo-all-minifier": "^0.5.7",
     "hexo-recommended-posts": "^1.2.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^4.1.0",
@@ -33,7 +33,8 @@
     "hexo-server": "^2.0.0",
     "hexo-theme-butterfly": "^3.8.3",
     "hexo-theme-keep": "^3.4.3",
-    "hexo-wordcount": "^6.0.1"
+    "hexo-wordcount": "^6.0.1",
+    "jpegtran-bin": "^5.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
