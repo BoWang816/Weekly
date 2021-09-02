@@ -8,7 +8,7 @@ sitemap: true
 abbrlink: 34985
 date: 2021-01-27 11:46:16
 tags:
-    - React
-    - Web
+  - React
+  - Web
 categories: [Web, React]
 ---
