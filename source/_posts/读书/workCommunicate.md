@@ -2,7 +2,7 @@
 title: 职场交流准则
 top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
-image: 'http://imgsrc.baidu.com/image/c0=shijue1,0,0,294,40/sign=39354a143e9b033b3885f4997da75ca6/5ab5c9ea15ce36d33826d42030f33a87e950b184.jpg'
+cover: 'http://imgsrc.baidu.com/image/c0=shijue1,0,0,294,40/sign=39354a143e9b033b3885f4997da75ca6/5ab5c9ea15ce36d33826d42030f33a87e950b184.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

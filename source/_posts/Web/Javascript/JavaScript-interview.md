@@ -2,7 +2,7 @@
 title: JavaScript-interview 题集
 top_img: 'https://unsplash.it/1920/1080?random'
 comments: true
-image: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603895904622&di=5217ed2d974dd7e0c2d3f7aad1f0701c&imgtype=0&src=http%3A%2F%2Ffile.elecfans.com%2Fweb1%2FM00%2FA8%2F70%2Fo4YBAF2NyjWAA0DYAAE8sIZUZrE783.png'
+cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603895904622&di=5217ed2d974dd7e0c2d3f7aad1f0701c&imgtype=0&src=http%3A%2F%2Ffile.elecfans.com%2Fweb1%2FM00%2FA8%2F70%2Fo4YBAF2NyjWAA0DYAAE8sIZUZrE783.png'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

@@ -31,7 +31,6 @@
     "hexo-recommended-posts": "^1.2.0",
     "hexo-renderer-pug": "^2.0.0",
     "hexo-theme-butterfly": "^3.8.3",
-    "hexo-theme-keep": "^3.4.3",
     "hexo-wordcount": "^6.0.1",
     "jpegtran-bin": "^5.0.2"
   },

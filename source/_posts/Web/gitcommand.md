@@ -2,7 +2,7 @@
 title: 常见git命令使用
 top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
-image: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=5497635,54094103&fm=26&gp=0.jpg'
+cover: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=5497635,54094103&fm=26&gp=0.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

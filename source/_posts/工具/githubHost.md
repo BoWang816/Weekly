@@ -2,7 +2,7 @@
 title: githubHost
 top_img: https://acg.xydwz.cn/gqapi/gqapi.php
 comments: true
-image: https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2820777772,196250266&fm=26&gp=0.jpg
+cover: https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2820777772,196250266&fm=26&gp=0.jpg
 copyright_author: bo.wang
 aplayer: true
 keywords: github host

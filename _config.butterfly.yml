@@ -88,15 +88,15 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/avatar.jpeg
 
 # Avatar (頭像)
 avatar:
-  img: /img/timg.jpeg
+  img: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/avatar.jpeg
   effect: false
 
 # the banner image of home page
-index_img: /img/index.jpg
+index_img: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/index.jpg
 
 # if the banner of page not setting, it will show the top_img
 default_top_img: https://unsplash.it/1920/1080?random
@@ -133,8 +133,8 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  flink: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/blogUrl.png
+  post_page: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/blogUrl.png
 
 # A simple 404 page
 error_404:
@@ -187,10 +187,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-     - img: /img/wechat.jpg
+     - img: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/wechat.jpg
        link:
        text: wechat
-     - img: /img/alipay.jpg
+     - img: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/alipay.jpg
        link:
        text: alipay
 
@@ -257,8 +257,8 @@ comments:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id: 63877b19f0bd5d9028e5
-  client_secret: 60fbfb2c4a7a1c63f236d2533665328f96a7465f
+  client_id: 8722cba8346af9dc4f93
+  client_secret: c613b4eb9de13021e0a4f7a354f88e7debee759b
   repo: Weekly
   owner: BoWang816
   admin: BoWang816
@@ -348,14 +348,9 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
-  custom_text: <p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://demo.jerryc.me/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
+    since: 2018
+  custom_text: <p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://demo.jerryc.me/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a><p>陕ICP备19011549号｜陕公网安备61010402000400号</p></p>
   copyright: true # Copyright of theme and framework
-  ICP: # Chinese ICP License
-    enable: true
-    url: http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action
-    text: 陕ICP备19011549号｜陕公网安备61010402000400号
-    icon: /img/icp.png
 
 # Analysis
 # --------------------------------------
@@ -782,7 +777,7 @@ pangu:
 # https://github.com/verlok/lazyload
 lazyload:
   enable: true
-  post: /img/loading.gif
+  post: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/loading.gif
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline

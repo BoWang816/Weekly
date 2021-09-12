@@ -2,7 +2,7 @@
 title:  项目计划
 top_img: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210803/plan.png'
 comments: true
-image: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210803/plan.png'
+cover: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210803/plan.png'
 copyright_author: bo.wang
 description: 归类最近个人项目开发与学习计划，开源计划，个人实战经验提升计划
 sitemap: true

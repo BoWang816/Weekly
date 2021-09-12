@@ -2,7 +2,7 @@
 title: markdown 基本用法
 top_img: 'https://unsplash.it/800/200?random'
 comments: true
-image: 'https://tva1.sinaimg.cn/large/008eGmZEly1gmm62h46ruj30m80ci3yw.jpg'
+cover: 'https://tva1.sinaimg.cn/large/008eGmZEly1gmm62h46ruj30m80ci3yw.jpg'
 copyright_author: bo.wang
 sitemap: true
 tags:

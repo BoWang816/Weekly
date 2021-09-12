@@ -2,7 +2,7 @@
 title: CSS基础面试题
 top_img: 'https://unsplash.it/1920/1080?random'
 comments: true
-image: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3387310245,3215677826&fm=26&gp=0.jpg'
+cover: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3387310245,3215677826&fm=26&gp=0.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

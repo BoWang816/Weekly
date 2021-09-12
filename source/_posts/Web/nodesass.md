@@ -2,7 +2,7 @@
 title: npm中node-sass安装失败问题
 top_img: 'https://unsplash.it/1920/1080?random'
 comments: true
-image: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600419616171&di=1b054295b758e814808dc1ebb42de59d&imgtype=0&src=http%3A%2F%2Fwww.leadnov.com%2FUpload%2F20190428165739.gif'
+cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600419616171&di=1b054295b758e814808dc1ebb42de59d&imgtype=0&src=http%3A%2F%2Fwww.leadnov.com%2FUpload%2F20190428165739.gif'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

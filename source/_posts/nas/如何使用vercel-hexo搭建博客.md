@@ -2,7 +2,7 @@
 title: 如何使用vercel+hexo搭建博客
 top_img: 'https://unsplash.it/800/200?random'
 comments: true
-image: 'https://tva1.sinaimg.cn/large/008eGmZEly1gmm677j5l2j31vn0u0wgs.jpg'
+cover: 'https://tva1.sinaimg.cn/large/008eGmZEly1gmm677j5l2j31vn0u0wgs.jpg'
 copyright_author: bo.wang
 sitemap: true
 tags:

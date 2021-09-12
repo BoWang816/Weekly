@@ -2,7 +2,7 @@
 title: nginx配置反向代理以及适配多端
 top_img: 'https://unsplash.it/1920/1080?random'
 comments: true
-image: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=827061456,130319744&fm=26&gp=0.jpg'
+cover: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=827061456,130319744&fm=26&gp=0.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

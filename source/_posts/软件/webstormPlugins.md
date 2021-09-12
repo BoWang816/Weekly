@@ -2,7 +2,7 @@
 title: Webstorm插件推荐
 top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
-image: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210804/webstormCover.png'
+cover: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210804/webstormCover.png'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true
