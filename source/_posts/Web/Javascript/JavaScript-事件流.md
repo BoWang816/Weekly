@@ -2,7 +2,7 @@
 title: JavaScript-事件流
 top_img: 'https://unsplash.it/1920/1080?random'
 comments: true
-cover: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2269261448,2123572753&fm=26&gp=0.jpg'
+image: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2269261448,2123572753&fm=26&gp=0.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

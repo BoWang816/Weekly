@@ -2,7 +2,7 @@
 title: 如何搭建同步hexo的博客小程序
 top_img: 'https://unsplash.it/800/200?random'
 comments: true
-cover: 'https://tva1.sinaimg.cn/large/008eGmZEly1gnxgpp21apj30p008c3yk.jpg'
+image: 'https://tva1.sinaimg.cn/large/008eGmZEly1gnxgpp21apj30p008c3yk.jpg'
 copyright_author: bo.wang
 description: 打造微信小程序同步hexo博客数据
 sitemap: true
@@ -66,7 +66,7 @@ restful:
     comments: true
     path: true
     excerpt: false
-    cover: true      # 封面图，取文章第一张图片
+    image: true      # 封面图，取文章第一张图片
     content: true
     keywords: true
     categories: true

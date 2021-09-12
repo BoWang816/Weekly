@@ -2,7 +2,7 @@
 title: CSS-精通CSS第七章-Debug
 top_img: 'https://unsplash.it/1920/1080?random'
 comments: true
-cover: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1915518695,403146418&fm=26&gp=0.jpg'
+image: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1915518695,403146418&fm=26&gp=0.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

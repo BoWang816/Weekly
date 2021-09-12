@@ -2,7 +2,7 @@
 title: Charles抓包工具的基本使用
 top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
-cover: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2271678093,1999335211&fm=15&gp=0.jpg'
+image: 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2271678093,1999335211&fm=15&gp=0.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

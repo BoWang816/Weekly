@@ -2,7 +2,7 @@
 title: React-React Effect Hook
 top_img: 'https://unsplash.it/800/200?random'
 comments: true
-cover: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3396435274,4251997814&fm=26&gp=0.jpg'
+image: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3396435274,4251997814&fm=26&gp=0.jpg'
 copyright_author: bo.wang
 description: Hook中useEffect的基础用法
 sitemap: true

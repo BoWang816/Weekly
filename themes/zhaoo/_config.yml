@@ -1,0 +1,288 @@
+# --------------------------------------------------
+# Site Settings
+# --------------------------------------------------
+
+# Menu
+menu:
+  home: / || 首页
+  galleries: /galleries || 摄影
+  archives: /archives || 归档
+  tags: /tags || 标签
+  categories: /categories || 分类
+  about: /about || 关于
+
+# Color
+color:
+  text: '#33333D'
+  text-secondary: '#4e4e4e'
+  text-third: '#999999'
+  background: '#ffffff'
+  background-secondary: '#f6f8fa'
+  border: '#eeeeee'
+  text-dark: '#dddddd'
+  text-secondary-dark: '#9899ab'
+  text-third-dark: '#7d8594'
+  background-dark: '#1e2128'
+  background-secondary-dark: '#1a1d22'
+  border-dark: '#2b3038'
+  link: '#FF3B00'
+
+# Favicon
+favicon:
+  small: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/avatar.jpeg
+  medium: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/avatar.jpeg
+  apple_touch_icon: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/avatar.jpeg
+  safari_pinned_tab: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/avatar.jpeg
+  msapplication: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/avatar.jpeg
+
+# Font
+font:
+  size: 14px
+  family:
+
+# Background Image
+background_image: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/index.jpg
+
+# Loading
+loading: 
+  light: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/loading.gif
+  dark: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/loading.gif
+
+# Preview
+preview:
+  enable: true
+#  type:   # wave | cloud
+  background:
+    type: image # image video
+    default_image:
+      light: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/index.jpg
+      dark: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/index.jpg
+    video:
+    api: https://source.unsplash.com/random/1920x1080
+    size: cover # css: background-size
+    position: initial # css: background-position
+  motto:
+    default: Everything will be fine
+    color: '#ffffff'
+    typing: true
+    api: https://v2.jinrishici.com/one.json
+    data_contents: ['data', 'content']
+    # ex.one  =>  apl: https://v1.hitokoto.cn/?encode=text&c=i  data_contents:
+    # ex.two  =>  api: https://v2.jinrishici.com/one.json  data_contents: ['data', 'content']
+
+# Navbar
+navbar:
+  enable: true
+  back_home: true
+
+# Copyright
+copyright: <p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a><p> 陕ICP备19011549号｜陕公网安备61010402000400号</p></p>
+
+# Social
+social:
+  qq: tencent://message/?Menu=yes&uin=965187796 || iconQQ || '#12B7F5'
+#  wechat: javascript:; || iconwechat-fill || '#09BB07'
+  github: https://github.com/BoWang816 || icongithub-fill || '#9f7be1'
+  email: mailto:bo.wang1016@outlook.com || iconmail
+
+# Override Scrollbar
+scrollbar:
+  type: default # default | simple | normal | none
+
+# Fab (Float Action Button)
+fab:
+  enable: true
+  always_show: false
+
+# Search
+search:
+  enable: true
+  path: /search.xml  # 索引生成路径（需要设置绝对路径，否则二级页面读不到）
+  field: post  # post page all
+  format: html  # 只支持 html 类型
+  content: true  # 是否包含正文内容
+
+# QR Code
+qrcode:
+  enable: true
+  type: image # url | image
+  image: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/blogUrl.png
+
+# Color Mode
+color_mode:
+  enable: true
+
+# Gray (Mourning Mode)
+gray:
+  enable: false
+
+# --------------------------------------------------
+# Post Settings
+# --------------------------------------------------
+
+# Post Image
+post_image:
+  random: local # local galleries
+  default: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/defaultPost.jpeg
+
+# Page Size
+post_page_size:
+  width: 1000px
+
+# Caption
+caption:
+  enable: true
+
+# Indent
+indent:
+  content:
+  excerpt:
+
+# TOC
+toc:
+  enable: true
+  always_show: true
+  min_depth: 1
+  max_depth: 3
+
+# Donate
+donate:
+  enable: true
+  alipay: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/alipay.jpg
+  wechat: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/wechat.jpg
+
+# Copyright
+post_copyright:
+  enable: true
+
+# Carrier（copy article with one click）
+carrier:
+  enable: true
+  type: html # html | markdown | text
+
+# --------------------------------------------------
+# Page Settings
+# --------------------------------------------------
+
+# Galleries
+galleries:
+  enable: true
+  title: 摄影
+  subtitle: Photography
+  type: waterfall # waterfall | grid
+  columns: 3
+
+
+# --------------------------------------------------
+# Comment Settings
+# --------------------------------------------------
+
+comments:
+  enable: true
+  type: gitalk # gitalk | valine | changyan
+  button: true
+
+# Gitalk
+gitalk:
+  owner: BoWang816
+  repo: Weekly
+  admin: BoWang816
+  clientID: 8722cba8346af9dc4f93
+  clientSecret: 6f921629b1264ac67e1913e08a2f1a3c5b4437bc
+
+# Valine
+valine:
+  appId:
+  appKey:
+  placeholder: 雁过留痕
+  avatar: mp
+  pageSize: 10
+  lang: zh-CN
+
+# ChangYan
+changyan:
+  appId:
+  conf:
+
+# --------------------------------------------------
+# Plugin settings
+# --------------------------------------------------
+
+# Notification
+notification:
+  enable: true
+  delay: 4500
+  page_white_list:
+  page_black_list:
+
+# Daovoice
+daovoice:
+  enable: false
+  appId: # app_id
+
+# Tencent Chao
+tencentChao:
+  enable: true
+  appId: 350970
+
+# LeanCloud
+leancloud:
+  enable: true
+  appId: 8Pb7V8FDfrMKh31FnSoX8p9m-gzGzoHsz
+  appKey: KoS1Fioz4zhJCjbIh6tplREy
+  serverURLs: https://leancloud.cn/
+
+# Lazyload
+lazyload:
+  enable: true
+  only_post: false
+  loading: 
+    light: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/loading.gif
+    dark: https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210912/loading.gif
+
+# FancyBox
+fancybox: true
+
+# Pjax
+pjax: true
+
+# HighLight
+highlight:
+  enable: true
+  style: # https://highlightjs.org/static/demo/
+    light: Xcode
+    dark: Solarized Dark
+
+# SEO
+seo:
+  baidu_auto_push: true
+
+# Analytics
+analytics:
+  baidu: 1e4024df1aeb0aba042964105c3304c2
+  google: # id
+  tencent: # id
+  cnzz:
+
+# --------------------------------------------------
+# Script Settings
+# --------------------------------------------------
+
+# CDN
+vendors:
+  jquery_js: https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js
+  fancybox_js: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js
+  pjax_js: https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js
+  lazyload_js: https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js
+  qrcode_js: https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js
+  daovoice_js: https://widget.daovoice.io/widget/0f81ff2f.js
+  fancybox_css: https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
+  highlight_css: https://cdn.bootcss.com/highlight.js/9.18.1/styles/
+  iconfont_css: //at.alicdn.com/t/font_1445822_r673sha78lq.css
+
+# Custom
+custom:
+  head:
+  foot:
+  css:
+  js:

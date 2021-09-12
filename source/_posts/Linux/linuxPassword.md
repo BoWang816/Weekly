@@ -2,7 +2,7 @@
 title: Ubuntu中在终端进入root权限但是总提示密码错误的解决方案
 top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
-cover: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3928303111,771089006&fm=26&gp=0.jpg'
+image: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3928303111,771089006&fm=26&gp=0.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

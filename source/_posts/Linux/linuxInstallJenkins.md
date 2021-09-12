@@ -2,7 +2,7 @@
 title: linux安装jenkins
 top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
-cover: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=705014255,1167057535&fm=26&gp=0.jpg'
+image: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=705014255,1167057535&fm=26&gp=0.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

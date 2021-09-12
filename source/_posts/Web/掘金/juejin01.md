@@ -2,7 +2,7 @@
 title: 掘金文章共享-01
 top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
-cover: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1063319999,960455973&fm=26&gp=0.jpg'
+image: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1063319999,960455973&fm=26&gp=0.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

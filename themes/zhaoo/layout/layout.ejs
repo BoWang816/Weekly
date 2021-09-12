@@ -1,0 +1,24 @@
+<%- partial('_partial/head') %>
+<body class="lock-screen">
+  <%- partial('_partial/components/loading') %>
+  <% if (theme.navbar.enable) { %>
+    <%- partial('_partial/components/navbar') %>
+  <% } %>
+  <%- partial('_partial/components/menu') %>
+  <%- body %>
+  <%- partial('_partial/components/footer') %>
+  <% if (theme.fab.enable) { %>
+    <%- partial('_partial/components/fab') %>
+  <% } %>
+  <% if (theme.scrollbar.type === 'simple') { %>
+    <%- partial('_partial/components/scrollbar') %>
+  <% } %>
+  <% if (theme.color_mode.enable) { %>
+    <%- js('js/color-mode') %>
+  <% } %>
+  <% if (theme.search.enable) { %>
+    <%- partial('_partial/components/search') %>
+  <% } %>
+</body>
+<%- partial('_partial/script') %>
+</html>

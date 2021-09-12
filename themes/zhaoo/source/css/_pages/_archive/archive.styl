@@ -1,0 +1,32 @@
+.archive
+  max-width 576px
+  min-height calc(100vh - 300px)
+  margin 0 auto
+  margin-top 60px
+  @media (max-width: 576px)
+    margin 20px
+  .archive-container
+    border-left 1px #E6E6E6 dashed
+    .archive-post
+      padding-left 30px
+      .archive-total, .archive-year, .archive-date, .archive-title
+        font-size 1.2em
+        font-weight bold
+      .archive-total, .archive-year, .archive-item
+        margin-bottom 30px
+      .archive-total, .archive-year, .archive-date
+        position relative
+      ::before
+        content ''
+        position absolute
+        margin-top 0.35em
+        left -37px
+        width 0.8em
+        height 0.8em
+        border-radius 0.8em
+        background-color #E6E6E6
+      .archive-date
+        color var(--color-text-secondary)
+        font-weight normal
+      .archive-title
+        margin-left 15px

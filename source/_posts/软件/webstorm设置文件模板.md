@@ -2,7 +2,7 @@
 title: webstorm设置文件模板
 top_img: 'https://unsplash.it/800/200?random'
 comments: true
-cover: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210804/webstormCover.png'
+image: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210804/webstormCover.png'
 copyright_author: bo.wang
 description: Webstorm设置文件模板以及模板变量
 sitemap: true

@@ -1,0 +1,138 @@
+<%
+var keywords = '';
+var description = '';
+(function() {
+  if (config.keywords) {
+    keywords += config.keywords;
+  }
+  if (page.keywords) {
+    keywords += ', ';
+    keywords += page.keywords;
+  }
+  if (config.description) {
+    description += config.description;
+  }
+  if (is_post()) {
+    description = truncate(strip_html(page.content), 100);
+  }
+})();
+%>
+
+<!DOCTYPE html>
+<html lang="<%= config.language || zh-CN %>" <%- theme.color_mode.enable || false ? `color-mode=light` : `` %>>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%= page_title() %></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate" />
+  <%- keywords ? `<meta name="keywords" content="${keywords}">` : null %>
+  <%- description ? `<meta name="description" content="${description}">` : null %>
+  <%- config.author ? `<meta name="author" content="${config.author}">` : null %>
+  <%- theme.favicon.small ? `<link rel="icon" href="${theme.favicon.small}" type="image/png" sizes="16x16">` : null %>
+  <%- theme.favicon.medium ? `<link rel="icon" href="${theme.favicon.medium}" type="image/png" sizes="32x32">` : null %>
+  <%- theme.favicon.apple_touch_icon ? `<link rel="apple-touch-icon" href="${theme.favicon.apple_touch_icon}" sizes="180x180">` : null %>
+  <%- theme.favicon.safari_pinned_tab ? `<meta rel="mask-icon" href="${theme.favicon.safari_pinned_tab}" color="#333333">` : null %>
+  <% if (theme.favicon.msapplication) { %>
+    <meta rel="msapplication-TileImage" content="<%- theme.favicon.msapplication %>">
+    <meta rel="msapplication-TileColor" content="#000000">
+  <% } %>
+
+  <%- css(['css/style']) %>
+
+  <% if (theme.vendors.iconfont_css) { %>
+    <%- css(theme.vendors.iconfont_css) %>
+  <% } %>
+
+  <% if (theme.fancybox) { %>
+    <%- theme.vendors.fancybox_css ? css(theme.vendors.fancybox_css) : css('lib/fancybox/fancybox.css') %>
+  <% } %>
+
+  <% if(theme.highlight.enable){ %>
+    <% if(theme.vendors.highlight_css){ %>
+      <% for (i in theme.highlight.style) { %>
+        <% style = theme.highlight.style[i].toLowerCase().replace(/(?<!([0-9]))\s(?!([0-9]))/g, '-').replace(/\s/g, '') %>
+        <%- css({href: theme.vendors.highlight_css + style + '.min.css', name: 'highlight-style', mode: i}) %>
+      <% } %>
+  <% }else{ %>
+    <%- css('lib/highlight/a11y-dark.css')%>
+  <% }} %>
+
+  <script>
+    var CONFIG = window.CONFIG || {};
+    var ZHAOO = window.ZHAOO || {};
+    CONFIG = {
+      isHome: <%= is_home() %>,
+      fancybox: <%= theme.fancybox %>,
+      pjax: <%= theme.pjax || false %>,
+      lazyload: {
+        enable: <%= theme.lazyload.enable %>,
+        only_post: '<%= theme.lazyload.only_post %>',
+        loading: '<%= theme.lazyload.loading %>'
+      },
+      donate: {
+        enable: <%= theme.donate.enable %>,
+        alipay: '<%= theme.donate.alipay %>',
+        wechat: '<%= theme.donate.wechat %>'
+      },
+      galleries: {
+        enable: <%= theme.galleries.enable %>
+      },
+      fab: {
+        enable: <%= theme.fab.enable %>,
+        always_show: <%= theme.fab.always_show %>
+      },
+      carrier: {
+        enable: <%= theme.carrier.enable %>
+      },
+      daovoice: {
+        enable: <%= theme.daovoice.enable %>
+      },
+      preview: {
+        background: {
+          default: '<%= theme.preview.background.default %>',
+          api: '<%= theme.preview.background.api %>'
+        },
+        motto: {
+          default: '<%= theme.preview.motto.default %>',
+          typing: <%= theme.preview.motto.typing %>,
+          api: '<%- theme.preview.motto.api %>',
+          data_contents: '<%- theme.preview.motto.data_contents && JSON.stringify(theme.preview.motto.data_contents) %>'
+        },
+      },
+      qrcode: {
+        enable: <%= theme.qrcode.enable %>,
+        type: '<%= theme.qrcode.type %>',
+        image: '<%= theme.qrcode.image %>',
+      },
+      toc: {
+        enable: <%= theme.toc.enable %>
+      },
+      scrollbar: {
+        type: '<%= theme.scrollbar.type %>'
+      },
+      notification: {
+        enable: <%= theme.notification.enable %>,
+        delay: <%= theme.notification.delay || 4500 %>,
+        list: '<%- site.data.notification && JSON.stringify(site.data.notification) %>',
+        page_white_list: '<%- theme.notification.page_white_list && JSON.stringify(theme.notification.page_white_list) %>',
+        page_black_list: '<%- theme.notification.page_black_list && JSON.stringify(theme.notification.page_black_list) %>'
+      },
+      search: {
+        enable: <%= theme.search.enable %>,
+        path: <%- config.search && config.search.path ? `'${config.search.path}'` : `''` %>
+      }
+    }
+  </script>
+
+  <% if (theme.custom.head) { %>
+    <%- theme.custom.head %>
+  <% } %>
+
+  <% if (theme.custom.css) { %>
+    <%- css(theme.custom.css) %>
+  <% } %>
+
+</head>

@@ -2,7 +2,7 @@
 title: 解决linux中apt install慢的问题
 top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
-cover: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4186541464,1812673689&fm=26&gp=0.jpg'
+image: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4186541464,1812673689&fm=26&gp=0.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

@@ -2,7 +2,7 @@
 title: JavaScript-权威指南-类与模块
 top_img: 'https://unsplash.it/1920/1080?random'
 comments: true
-cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604207586042&di=50261aaaa84079ab5fa1787c10264d4a&imgtype=0&src=http%3A%2F%2Fimage12.bookschina.com%2F2012%2F20120609%2F5524565.jpg'
+image: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604207586042&di=50261aaaa84079ab5fa1787c10264d4a&imgtype=0&src=http%3A%2F%2Fimage12.bookschina.com%2F2012%2F20120609%2F5524565.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

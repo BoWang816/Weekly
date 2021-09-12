@@ -1,0 +1,48 @@
+/* Color Mode */
+:root
+  --color-background $color-background
+  --color-background-secondary $color-background-secondary
+  --color-background-rgb $color-background-rgb
+  --color-text $color-text
+  --color-text-secondary $color-text-secondary
+  --color-text-third $color-text-third
+  --color-border $color-border
+  --background-image url(hexo-config('preview.background.default_image.light'))
+  --loading-image url(hexo-config('loading.light'))
+  --lazyload-image url(hexo-config('lazyload.loading.light'))
+dark()
+  --color-background $color-background-dark
+  --color-background-secondary $color-background-secondary-dark
+  --color-background-rgb $color-background-rgb-dark
+  --color-text $color-text-dark
+  --color-text-secondary $color-text-secondary-dark
+  --color-text-third $color-text-third-dark
+  --color-border $color-border-dark
+  --background-image url(hexo-config('preview.background.default_image.dark'))
+  --loading-image url(hexo-config('loading.dark'))
+  --lazyload-image url(hexo-config('lazyload.loading.dark'))
+@media (prefers-color-scheme dark)
+  :root
+    --color-mode 'dark'
+  :root:not([color-mode])
+    dark()
+[color-mode='dark']
+  dark()
+/* Fix */
+[color-mode='dark']
+  .tags a
+    color var(--color-text) !important
+@css {
+  .menu {
+    background-color: rgba(var(--color-background-rgb), 0.7) !important;
+  }
+  .search {
+    background-color: rgba(var(--color-background-rgb), 0.7) !important;
+  }
+  .navbar {
+    background-color: rgba(var(--color-background-rgb), 0.8) !important;
+  }
+  .zui-notification {
+    background-color: rgba(var(--color-background-rgb), 0.7) !important;
+  }
+}

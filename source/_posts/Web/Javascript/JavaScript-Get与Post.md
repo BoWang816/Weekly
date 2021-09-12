@@ -2,7 +2,7 @@
 title: JavaScript-Get与Post
 top_img: 'https://unsplash.it/1920/1080?random'
 comments: true
-cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604207305702&di=944851c9019b8030d0d9afc3536550b7&imgtype=0&src=http%3A%2F%2Fpic2.zhimg.com%2F50%2Fv2-edfdf66b530ae9b1809f2b64c4e01177_bh.jpg'
+image: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604207305702&di=944851c9019b8030d0d9afc3536550b7&imgtype=0&src=http%3A%2F%2Fpic2.zhimg.com%2F50%2Fv2-edfdf66b530ae9b1809f2b64c4e01177_bh.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

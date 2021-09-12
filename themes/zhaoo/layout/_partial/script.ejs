@@ -1,0 +1,39 @@
+<%- theme.vendors.jquery_js ? js(theme.vendors.jquery_js) : js('lib/jquery/jquery.js') %>
+
+<% if (theme.lazyload) { %>
+  <%- theme.vendors.lazyload_js ? js(theme.vendors.lazyload_js) : js('lib/lazyload/lazyload.js') %>
+<% } %>
+
+<% if (theme.fancybox) { %>
+  <%- theme.vendors.fancybox_js ? js(theme.vendors.fancybox_js) : js('lib/fancybox/fancybox.js') %>
+<% } %>
+
+<% if (theme.pjax) { %>
+  <%- theme.vendors.pjax_js ? js(theme.vendors.pjax_js) : js('lib/pjax/pjax.js') %>
+<% } %>
+
+<% if (theme.qrcode.enable) { %>
+  <%- theme.vendors.qrcode_js ? js(theme.vendors.qrcode_js) : js('lib/qrcode/qrcode.js') %>
+<% } %>
+
+<%- js(['js/utils', 'js/script']) %>
+
+<% if (theme.leancloud.enable) { %>
+  <%- partial('_partial/plugins/visitors') %>
+<% } %>
+
+<% if (theme.daovoice.enable) { %>
+  <%- partial('_partial/plugins/daovoice') %>
+<% } %>
+
+<%- partial('_partial/plugins/seo') %>
+
+<%- partial('_partial/plugins/analytics') %>
+
+<% if (theme.custom.foot) { %>
+  <%- theme.custom.foot %>
+<% } %>
+
+<% if (theme.custom.js) { %>
+  <%- js(theme.custom.js) %>
+<% } %>

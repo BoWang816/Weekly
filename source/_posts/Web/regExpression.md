@@ -2,7 +2,7 @@
 title: 常用正则表达式
 top_img: 'https://uploadbeta.com/api/pictures/random'
 comments: true
-cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600417903867&di=5e0d0df7e9a428abb4244d646985557c&imgtype=0&src=http%3A%2F%2Fimg4.sycdn.imooc.com%2F5b38507d0001942e06800385.jpg'
+image: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600417903867&di=5e0d0df7e9a428abb4244d646985557c&imgtype=0&src=http%3A%2F%2Fimg4.sycdn.imooc.com%2F5b38507d0001942e06800385.jpg'
 copyright_author: bo.wang
 sitemap: true
 aplayer: true

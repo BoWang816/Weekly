@@ -1,0 +1,59 @@
+.navbar
+  position fixed
+  display flex
+  align-items center
+  justify-content space-between
+  height 55px
+  width 100%
+  top 0
+  z-index 50
+  background-color rgba(255, 255, 255, 0.8)
+  -webkit-backdrop-filter saturate(180%) blur(5px)
+  backdrop-filter saturate(180%) blur(5px)
+  transition transform 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9)
+  &.hide
+    transform translateY(-55px)
+  &.transparent
+    background-color: rgba(255, 255, 255, 0) !important;
+    backdrop-filter: none;
+  > div
+    flex 1
+    display inline-flex
+    text-align center
+  .left
+    justify-content flex-start
+    padding-left 15px
+    .iconfont:not(:first-child)
+      margin-left 10px
+  .center
+    justify-content center
+    opacity 0
+    transition opacity 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9)
+    &.hide
+      opacity 1
+  .right
+    justify-content flex-end
+    padding-right 15px
+    .iconfont:not(:last-child)
+      margin-right 10px
+  .iconfont
+    font-size 22px
+    color var(--color-text)
+    &:hover
+      cursor pointer
+  #qrcode-navbar
+    position absolute
+    display none
+    z-index 10
+    top 70px
+    left 15px
+    padding 15px
+    border 1px solid var(--color-border)
+    background-color var(--color-background)
+    img
+      width 150px
+      height 150px
+@media (max-width 768px)
+  .navbar
+    .center
+      display none

@@ -2,7 +2,7 @@
 title: Ubuntu安装YApi
 top_img: 'https://unsplash.it/800/200?random'
 comments: true
-cover: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210421/yapibanner.jpg'
+image: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210421/yapibanner.jpg'
 copyright_author: bo.wang
 description: 'YApi旨在为开发、产品、测试人员提供更优雅的接口管理服务。可以帮助开发者轻松创建、发布、维护 API'
 sitemap: true

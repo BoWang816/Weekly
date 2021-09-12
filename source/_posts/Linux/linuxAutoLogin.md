@@ -2,7 +2,7 @@
 title: 自动登录服务器脚本
 top_img: https://uploadbeta.com/api/pictures/random
 comments: true
-cover: https://i.loli.net/2020/09/17/Cc7Zu6AkmwdvPBT.jpg
+image: https://i.loli.net/2020/09/17/Cc7Zu6AkmwdvPBT.jpg
 copyright_author: bo.wang
 sitemap: true
 aplayer: true
