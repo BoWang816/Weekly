@@ -26,15 +26,14 @@ keywords: plan, web
      - 项目搭建完成，底部导航已增加，路由页面组件已增加；
    - 后续计划
      - 继续开发
-     
 ### 后端
-   - 技术栈: 待定（next.js或koa.js）
+   - 技术栈: nest.js
    - 仓库地址：https://github.com/WangBOFrontEnd/loveUServer
    - 目前进度：
       - 暂未开始；
       
 ## 博客小程序
-- 技术栈: 原生小程序，基于云函数开发，使用view-design UI组件库；
+- 技术栈: ~~原生小程序，基于云函数开发，使用view-design UI组件库；~~ 使用remax开发
 - 仓库地址：https://github.com/BoWang816/wx-blog
 - 目前进度：
     - 首页已完成；
@@ -67,4 +66,6 @@ keywords: plan, web
 - 后续计划：
     - 补充工作内容，增加动画交互，调整UI；
 
-## 多平台发布平台
+## 统一管理平台
+- 技术栈：nest.js + react + antd
+- 统一管理在线简历与网站首页的管理系统
