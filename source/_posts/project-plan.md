@@ -6,6 +6,7 @@ cover: 'https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210803/plan.png'
 copyright_author: bo.wang
 description: 归类最近个人项目开发与学习计划，开源计划，个人实战经验提升计划
 sitemap: true
+sticky: 2
 abbrlink: 59753
 date: 2021-08-03 11:50:05
 updated: 2021-08-03 11:50:05
@@ -26,6 +27,8 @@ keywords: plan, web
      - 项目搭建完成，底部导航已增加，路由页面组件已增加；
    - 后续计划
      - 继续开发
+
+
 ### 后端
    - 技术栈: nest.js
    - 仓库地址：https://github.com/WangBOFrontEnd/loveUServer

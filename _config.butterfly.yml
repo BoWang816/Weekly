@@ -12,6 +12,7 @@ menu:
      时间: /archives/ || fas fa-archive
      标签: /tags/ || fas fa-tags
      分类: /categories/ || fas fa-folder-open
+     统计: /statistics/ || fa-chart-line
    留言: /message/ || fas fa-comment-dots
    友链: /link/ || fas fa-link
    关于: /about/ || fas fa-heart
@@ -721,7 +722,7 @@ fancybox: true
 mermaid:
   enable: false
   # built-in themes: default/forest/dark/neutral
-  theme: default
+  theme: dark
 
 # Note (Bootstrap Callout)
 note:
@@ -822,6 +823,36 @@ abbrlink:
   auto_title: true #enable auto title, it can auto fill the title by path
   auto_date: false #enable auto date, it can auto fill the date by time today
   force: true #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
+
+# 统计图表，支持发布文章统计、发布日历、Top标签统计、分类统计、分类雷达。
+# see https://www.npmjs.com/package/hexo-butterfly-charts
+charts:
+  enable: true # 是否启用功能
+  postsChart:
+    title: 文章发布统计 # 设置文章发布统计的标题，默认为空
+    interval: 1 # 横坐标间隔
+  tagsChart:
+    title: Top 10 标签统计 # 设置标签统计的标题，默认为空
+    interval: 1 # 横坐标间隔
+  postsCalendar_Title: #文章发布日历 # 设置发布日历的标题，默认为空
+  categoriesChart_Title: # 设置分类统计的标题，默认为空
+  categoriesRadar_Title: # 设置分类雷达的标题，默认为空
+
+# 动态时钟配置
+# see https://akilar.top/posts/4e39cf4a/
+electric_clock:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude:
+  # - /posts/
+  # - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: /img/loading.gif #加载动画自定义
+
 
 CDN:
   # main
