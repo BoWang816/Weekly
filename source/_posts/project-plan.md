@@ -27,8 +27,7 @@ keywords: plan, web
      - 项目搭建完成，底部导航已增加，路由页面组件已增加；
    - 后续计划
      - 继续开发
-
-
+     
 ### 后端
    - 技术栈: nest.js
    - 仓库地址：https://github.com/WangBOFrontEnd/loveUServer
@@ -50,6 +49,7 @@ keywords: plan, web
   - 支持react框架的vite与webpack两种构建工具模板；
 - 后续计划：
   - 项目模板升级vite、升级webpack5；
+  - ts支持；
 
 ## 网站首页
 - 技术栈: 基于React，使用了umi.js框架；
@@ -71,4 +71,4 @@ keywords: plan, web
 
 ## 统一管理平台
 - 技术栈：nest.js + react + antd
-- 统一管理在线简历与网站首页的管理系统
+- 统一管理在线简历、网站首页的管理系统
