@@ -17,6 +17,19 @@ categories: Web
 keywords: plan, web
 ---
 
+## 计划
+
+- loveU App开发；
+- 自有博客开发；
+- 博客小程序开发；
+- 简历网站开发；
+- 网站首页的开发；
+- 统一管理平台开发；
+
+## 读书
+- JavaScript高级程序设计的继续阅读：第五章 基本引用类型；
+
+
 ## loveU App开发
 
 ### 前端
@@ -42,15 +55,6 @@ keywords: plan, web
 - 后续计划：
   - 继续开发，完成详情页、标签页、分类页、关于页；
 
-## React脚手架
-
-- 仓库地址：https://github.com/WangBOFrontEnd/wb-create-react-app-cli
-- 目前进度：
-  - 支持react框架的vite与webpack两种构建工具模板；
-- 后续计划：
-  - 项目模板升级vite、升级webpack5；
-  - ts支持；
-
 ## 网站首页
 - 技术栈: 基于React，使用了umi.js框架；
 - 访问地址：https://www.wangboweb.site
@@ -71,4 +75,4 @@ keywords: plan, web
 
 ## 统一管理平台
 - 技术栈：nest.js + react + antd
-- 统一管理在线简历、网站首页的管理系统
+- 统一管理在线简历、网站首页、博客的管理系统
